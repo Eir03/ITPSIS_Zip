@@ -1,0 +1,15 @@
+C:\Users\староверов\source\repos\ZipFake\ZipFake\bin\Debug\ZipFake.exe.config
+C:\Users\староверов\source\repos\ZipFake\ZipFake\bin\Debug\ZipFake.exe
+C:\Users\староверов\source\repos\ZipFake\ZipFake\bin\Debug\ZipFake.pdb
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.csprojAssemblyReference.cache
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\MainWindow.g.cs
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\App.g.cs
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake_MarkupCompile.cache
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake_MarkupCompile.lref
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\MainWindow.baml
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.g.resources
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.Properties.Resources.resources
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.csproj.GenerateResource.cache
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.csproj.CoreCompileInputs.cache
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.exe
+C:\Users\староверов\source\repos\ZipFake\ZipFake\obj\Debug\ZipFake.pdb
