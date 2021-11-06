@@ -7,7 +7,7 @@
         mc:Ignorable="d" ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         WindowStyle="SingleBorderWindow" FontSize="16pt"
-        Title="ZipFake" Height="185" Width="400" FontFamily="/ZipFake;component/Resources/#Akrobat Black">
+        Title="ZipFake" Height="185" Width="400" FontFamily="/ZipFake;component/Resources/#Akrobat" Icon="zip_icon.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -15,27 +15,24 @@
             <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
 
-        <Menu>
-            <MenuItem Header="Файл"/>
+        <Menu FontSize="12" VerticalContentAlignment="Center">
+            <MenuItem Header="Файл" Click="BtnArchiving_Click"/>
         </Menu>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center">
-            <Button Content="Архивировать" Margin="10"
-                    Background="White"
+            <Button Content="Архивировать" Padding="5"
                     Name="BtnArchiving" Click="BtnArchiving_Click"/>
-            <Button Content="Разархивировать" Margin="10"
-                    Background="White"
-                    Name="DisArchiving"/>
+            <Button Content="Разархивировать"
+                    Name="DisArchiving"
+                    Click="DisArchiving_Click"/>
         </StackPanel>
 
-        <Grid Grid.Row="2"
+        <Grid Grid.Row="2" Name="GDtop"
                     Background="#17479e">
-            <TextBlock Name="TxbStatus" Margin="10 0"
-                       Text="Статус" FontSize="16"/>
-            <ProgressBar Width="150" HorizontalAlignment="Right"
-                         Margin="10 0" Height="20"/>
+            <TextBlock Text="Статус"/>
+            <TextBlock Name="TxbStatus" Text="В ожидании" HorizontalAlignment="Right"/>
         </Grid>
     </Grid>
 </Window>
